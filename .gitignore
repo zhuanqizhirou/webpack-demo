@@ -1,1 +1,4 @@
 node_modules/
+.idea
+!.idea/misc.xml #使用JavaScript使用ES6
+
