@@ -8,12 +8,13 @@ function component() {
     // Lodash（目前通过一个 script 脚本引入）对于执行这一行是必需的
 
     var a = document.createElement('div')
-    a.innerHTML = _.join(['Hello', 'webpack', '方正隶书（貌似无效）'], ' ');
+    a.innerHTML = _.join(['Hello', 'webpack', '方正隶书'], ' ');
     a.classList.add('hello');
     element.appendChild(a)
 
     var e = document.createElement('div')
-    e.innerHTML = "普通字体：方正隶书";
+    e.innerHTML = "&#xe6e0;";
+    e.classList.add('iconfont')
     element.appendChild(e)
 
     var myIcon = new Image();

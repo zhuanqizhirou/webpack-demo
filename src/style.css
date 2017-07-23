@@ -1,12 +1,28 @@
 @font-face {
-    font-family: "myFont";
-    src: url('./fangzhengli.ttf') format('ttf');
+    font-family: "iconfont";
+    /*两种不同格式*/
+    /*src: url('./font/iconfont.ttf');*/
+    src: url('./font/iconfont.woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "li";
+    /*两种不同格式*/
+    /*src: url('./font/iconfont.ttf');*/
+    src: url('./font/fangzhengli.ttf');
     font-weight: 600;
     font-style: normal;
 }
 
 .hello {
     color: red;
-    font-family: 'myFont';
+    font-family: li;
     background: url('./icon.png');
+    font-size: 50px;
+}
+
+.iconfont {
+    font-family: iconfont;
 }
